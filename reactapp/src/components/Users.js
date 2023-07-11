@@ -9,6 +9,7 @@ class Users extends Component {
                 {
                     value => {
                         const { users } = value;
+                        console.log(users)
                         return (
                             <div>
                                 {
